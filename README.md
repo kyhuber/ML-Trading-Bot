@@ -34,9 +34,9 @@ https://github.com/kyhuber/ML_Trading_Bot/
 
 Long SMA = 100, Short SMA = 4, Training Window = 3 months
 
-These parameters establish a baseline for performance data. We can see that the strategy returns fall well short of the actual returns using the SVC classifier model. The strategy returns continue on a downward trend well after the actual returns correct in mid-2020.
+These parameters establish a baseline for performance data. We can see that the strategy returns slightly exceed the actual returns using the SVC classifier model. The strategy returns exhibit similar volatility and trend lines.
 
-![image](https://user-images.githubusercontent.com/69730757/162492392-36fd50ae-ec42-4715-99e1-e1641b4ef4ff.png)
+![image](https://user-images.githubusercontent.com/69730757/162499783-737300bc-67bb-44ac-ad67-700d4c61c824.png)
 
 
 ### What impact resulted from increasing or decreasing the training window?
@@ -50,9 +50,9 @@ By increasing the training window, the strategy returns improves significantly.
 
 ### What impact resulted from increasing or decreasing either or both of the SMA windows?
 
-Long SMA = 30, Short SMA = 1, Training Window = 24 months
+Long SMA = 30, Short SMA = 1, Training Window = 3 months
 
-By decreasing the long window to 30, we see good strategy returns but the trend line is more volatile.
+By decreasing the long window to 30 and short to 1, we see good strategy returns but the trend line is more volatile.
 
 ![image](https://user-images.githubusercontent.com/69730757/162493558-93493025-e552-4cd4-a519-c83e3deb5568.png)
 
