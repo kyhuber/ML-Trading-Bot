@@ -56,9 +56,11 @@ By decreasing the long window to 30, we see good strategy returns but the trend 
 
 ![image](https://user-images.githubusercontent.com/69730757/162493558-93493025-e552-4cd4-a519-c83e3deb5568.png)
 
+### Maximum Returns
+
 Long SMA = 100, Short SMA = 1, Training Window = 24 months
 
-By decreasing the short window, we see a sizable improvement of strategy returns. This combination of a longer long window, a shorter short window, and increased training window creates the best returns.
+By decreasing the short window, we see a sizable improvement of strategy returns. This combination of a longer long window, a shorter short window, and longer training window creates the best returns.
 
 ![image](https://user-images.githubusercontent.com/69730757/162492824-ff710fb2-7fda-4c02-8598-924328911b58.png)
 
