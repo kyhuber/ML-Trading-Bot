@@ -59,7 +59,7 @@ By decreasing the long window to 30, we see good strategy returns but the trend 
 
 ### Logistic Regression Model
 
-Long SMA = 100, Short SMA = 4, Training Window = 24 months
+Long SMA = 100, Short SMA = 4, Training Window = 3 months
 
 The strategy returns and actual returns are more consistent using the logistic regression model, but they are not as favorable as the SVC model.
 
