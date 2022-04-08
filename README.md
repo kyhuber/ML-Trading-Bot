@@ -34,7 +34,7 @@ https://github.com/kyhuber/ML_Trading_Bot/
 
 Long SMA = 100, Short SMA = 4, Training Window = 3 months
 
-These parameters establish a baseline for performance data.
+These parameters establish a baseline for performance data. We can see that the strategy returns fall well short of the actual returns using the SVC classifier model.
 
 ![image](https://user-images.githubusercontent.com/69730757/162492392-36fd50ae-ec42-4715-99e1-e1641b4ef4ff.png)
 
