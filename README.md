@@ -1,16 +1,14 @@
 # ML_Trading_Bot
 
-Analysis of real estate data for San Francisco, including interactive visualizations and geospatial analysis.
+Creating a machine learning trading bot to inform decisions about returns based on different trading strategies.
 
-First, the Proptech Analyzer computes the number of housing units and average sale price per square foot. The app groups this data by neighborhood and plots the trend over time. 
+First, the ML Trading Bot establishes a baseline performance from stock performance data from a csv file. Moving average values are calculated based on predefined inputs, creating trading signals. Next, the bot tunes the baseline trading algorithm using the support vector machine learning method. The app plots actual returns and strategy returns based on the trading signals.
 
-Next, the app considers gross rental data for each of the neighborhoods. In the resulting plot, the user can select a value from a dropdown and the plot will refresh to show neighborhood-specific data.
+Finally, the app reconsiders stock performance data using the LogisticRegression ML model.
 
-Finally, the app builds an interactive geospatial neighborhood map using latitude and longitude coordinates. This plot features color-coded dots within each neighborhood to provide an easy-to-follow visual interface.
+The ML Trading Bot creates value for users, namely investors, by creating performance predictions. The bot can be tuned using any ML model and tested to view outcomes based on historical data.
 
-The Proptech Analyzer creates value for users, namely investors, by calculating key metrics that are relevant in real estate. The plots and data visualizations simplify the complex CSV data for the investor. As demonstrated in the challenge, the app helps answer investment questions and tell a story using the data.
-
-The app is written in such a manner that it can take in data from any city and is still just as useful.
+The app is written in such a manner that it can take in data from any equity and is still just as useful.
 
 ---
 
