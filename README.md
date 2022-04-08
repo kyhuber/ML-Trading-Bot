@@ -32,21 +32,41 @@ https://github.com/kyhuber/ML_Trading_Bot/
 
 ## Findings
 
-![image](https://user-images.githubusercontent.com/69730757/162492392-36fd50ae-ec42-4715-99e1-e1641b4ef4ff.png)
-Using 4 days for the short window and 100 days for the long, with a 3 month trading data set size, we can see that the strategy returns are much lower than actual.
+Long SMA = 100
+Short SMA = 4
+Training Window = 3 months
 
-What impact resulted from increasing or decreasing the training window?
+![image](https://user-images.githubusercontent.com/69730757/162492392-36fd50ae-ec42-4715-99e1-e1641b4ef4ff.png)
+
+These parameters establish a baseline for performance data.
+
+# What impact resulted from increasing or decreasing the training window?
+
+Long SMA = 100
+Short SMA = 4
+Training Window = 24 months
 
 ![image](https://user-images.githubusercontent.com/69730757/162492502-5d2d0f59-af50-40a4-ad3a-422815843c6c.png)
-By increasing the training window to 24 months, the strategy returns improves significantly.
 
-What impact resulted from increasing or decreasing either or both of the SMA windows?
+By increasing the training window, the strategy returns improves significantly.
 
-![image](https://user-images.githubusercontent.com/69730757/162492824-ff710fb2-7fda-4c02-8598-924328911b58.png)
-By decreasing the short window to 1, we see a sizable improvement of strategy returns.
+# What impact resulted from increasing or decreasing either or both of the SMA windows?
+
+Long SMA = 30
+Short SMA = 1
+Training Window = 24 months
 
 ![image](https://user-images.githubusercontent.com/69730757/162493558-93493025-e552-4cd4-a519-c83e3deb5568.png)
+
 By decreasing the long window to 30, we see good strategy returns but the trend line is more volatile.
+
+Long SMA = 100
+Short SMA = 1
+Training Window = 24 months
+
+![image](https://user-images.githubusercontent.com/69730757/162492824-ff710fb2-7fda-4c02-8598-924328911b58.png)
+
+By decreasing the short window, we see a sizable improvement of strategy returns.
 
 ---
 
