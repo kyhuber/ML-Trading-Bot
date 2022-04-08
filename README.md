@@ -34,7 +34,7 @@ https://github.com/kyhuber/ML_Trading_Bot/
 
 Long SMA = 100, Short SMA = 4, Training Window = 3 months
 
-These parameters establish a baseline for performance data. We can see that the strategy returns fall well short of the actual returns using the SVC classifier model.
+These parameters establish a baseline for performance data. We can see that the strategy returns fall well short of the actual returns using the SVC classifier model. The strategy returns continue on a downward trend well after the actual returns correct in mid-2020.
 
 ![image](https://user-images.githubusercontent.com/69730757/162492392-36fd50ae-ec42-4715-99e1-e1641b4ef4ff.png)
 
@@ -61,7 +61,7 @@ By decreasing the long window to 30, we see good strategy returns but the trend 
 
 Long SMA = 100, Short SMA = 4, Training Window = 24 months
 
-The returns using the logistic regression model are not as favorable as the SVC model.
+The strategy returns and actual returns are more consistent using the logistic regression model, but they are not as favorable as the SVC model.
 
 ![image](https://user-images.githubusercontent.com/69730757/162497814-4cf7a5ba-db44-4256-836f-8014fd1e2c1b.png)
 
