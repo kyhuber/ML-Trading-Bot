@@ -8,7 +8,7 @@ Finally, the app reconsiders stock performance data using the LogisticRegression
 
 The ML Trading Bot creates value for users, namely investors, by creating performance predictions. The bot can be tuned using any ML model and tested to view outcomes based on historical data.
 
-The app is written in such a manner that it can take in data from any equity and is still just as useful.
+The app ML analysis to performance data from any publicly traded asset.
 
 ---
 
