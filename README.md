@@ -2,7 +2,7 @@
 
 Creating a machine learning trading bot to inform decisions about returns based on different trading strategies.
 
-First, the ML Trading Bot establishes a baseline performance from stock performance data from a csv file. Moving average values are calculated based on predefined inputs, creating trading signals. Next, the bot tunes the baseline trading algorithm using the support vector machine learning method. The app plots actual returns and strategy returns based on the trading signals.
+First, the ML Trading Bot establishes a baseline performance from stock performance data contained within a csv file. Moving average values are calculated based on predefined inputs and creating trading signals. Next, the bot tunes the baseline trading algorithm using the support vector machine learning method. The app plots actual returns and strategy returns based on trading signals derived from the SVMLM.
 
 Finally, the app reconsiders stock performance data using the LogisticRegression ML model.
 
